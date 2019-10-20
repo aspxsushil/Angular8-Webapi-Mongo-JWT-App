@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="row">
+        <div class="col-md-6" *ngFor="let notificationType of notificationTypes">
+            <div class="card-body" >
+                <h5 class="card-title">{{notificationType.code}}</h5>
+                <hr/>
+                <p class="card-text">{{notificationType.description}}</p>
+                <a href="#" class="btn btn-primary">Start </a>
+            </div>
+        </div>
+    </div>
+</div>
